@@ -1,3 +1,6 @@
+// Export module
+if (typeof module !== 'undefined' && typeof exports !== 'undefined' && module.exports === exports) { module.exports = 'dibari.angular-ellipsis'; }
+
 /**
  *	Angular directive to truncate multi-line text to visible height
  *
